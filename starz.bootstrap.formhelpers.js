@@ -152,7 +152,7 @@ var BFHCountryPrefixesList = {
             this.$element.find('[role=option]').html(options);
 
             if (this.options.filter === true) {
-                this.$element.find('.bfh-selectbox-options').prepend('<div class="bfh-selectbox-filter-container"><input type="text" class="bfh-selectbox-filter form-control"></div>');
+                this.$element.find('.bfh-selectbox-options').prepend('<div class="bfh-selectbox-filter-container"><input type="text" class="bfh-selectbox-filter Form-select"></div>');
             }
 
             this.$element.val(this.options.value);
@@ -374,7 +374,7 @@ var BFHCountryPrefixesList = {
 
     $.fn.bfhselectbox.defaults = {
         icon: 'caret',
-        input: 'form-control',
+        input: 'Form-select',
         name: '',
         value: '',
         filter: false
